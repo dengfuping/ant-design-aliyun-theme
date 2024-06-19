@@ -3,7 +3,8 @@
 import type { ThemeConfig } from 'antd';
 
 const colorPrimary = '#0064C8';
-const colorTextHeading = 'fade(#000, 85%)';
+const colorPrimaryRGB = '0, 100, 200';
+const colorTextHeading = 'rgba(0, 0, 0, 0.85)';
 
 export default {
   token: {
@@ -17,8 +18,8 @@ export default {
     colorError: '#d93026',
     borderRadius: 0,
     borderRadiusSM: 0,
-    colorText: 'fade(#000, 65%)',
-    colorTextSecondary: 'fade(#000, 45%)',
+    colorText: 'rgba(0, 0, 0, 0.65)',
+    colorTextSecondary: 'rgba(0, 0, 0, 0.45)',
     colorTextHeading,
     colorBgBase: 'hsv(0, 0, 96%)',
     colorBorder: '#dedede',
@@ -47,7 +48,7 @@ export default {
       colorError: '#d93026',
     },
     Breadcrumb: {
-      lastItemColor: 'fade(#000, 45%)',
+      lastItemColor: 'rgba(0, 0, 0, 0.45)',
       linkColor: colorTextHeading,
       linkHoverColor: colorPrimary,
       '@breadcrumb-base-color': '@text-color',
@@ -108,7 +109,7 @@ export default {
     Radio: {
       buttonBg: 'transparent',
       buttonCheckedBg: 'transparent',
-      colorPrimaryActive: `fade(${colorPrimary}, 15)`,
+      colorPrimaryActive: `rgba(${colorPrimaryRGB}, 15)`,
       buttonPaddingInline: 16,
     },
     Select: {
@@ -135,7 +136,7 @@ export default {
       headerBg: '#fafafa',
       rowHoverBg: '#fafafa',
       paddingContentVertical: 12,
-      rowSelectedBg: `fade(${colorPrimary}, 10)`,
+      rowSelectedBg: `rgba(${colorPrimaryRGB}, 10)`,
       headerSplitColor: 'transparent',
       selectionColumnWidth: 50,
     },
