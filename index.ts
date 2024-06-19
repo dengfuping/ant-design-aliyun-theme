@@ -21,7 +21,7 @@ export default {
     colorText: 'rgba(0, 0, 0, 0.65)',
     colorTextSecondary: 'rgba(0, 0, 0, 0.45)',
     colorTextHeading,
-    colorBgBase: 'hsv(0, 0, 96%)',
+    colorBgBase: '#f5f5f5',
     colorBorder: '#dedede',
     colorBorderSecondary: '#ebebeb',
     colorLink: colorPrimary,
@@ -115,7 +115,7 @@ export default {
       optionSelectedBg: 'rgba(14,146,255,0.05)',
     },
     Slider: {
-      railBg: 'hsv(0, 0, 96%)',
+      railBg: '#f5f5f5',
       railHoverBg: '#e1e1e1',
       trackBg: colorPrimary,
       trackHoverBg: colorPrimary,
