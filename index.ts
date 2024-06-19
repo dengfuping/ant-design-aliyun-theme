@@ -107,7 +107,7 @@ export default {
     Radio: {
       buttonBg: 'transparent',
       buttonCheckedBg: 'transparent',
-      colorPrimaryActive: `rgba(${colorPrimaryRGB}, 15)`,
+      colorPrimaryActive: `rgba(${colorPrimaryRGB}, 0.15)`,
       buttonPaddingInline: 16,
     },
     Select: {
@@ -133,8 +133,8 @@ export default {
     Table: {
       headerBg: '#fafafa',
       rowHoverBg: '#fafafa',
+      rowSelectedBg: `rgba(${colorPrimaryRGB}, 0.1)`,
       paddingContentVertical: 12,
-      rowSelectedBg: `rgba(${colorPrimaryRGB}, 10)`,
       headerSplitColor: 'transparent',
       selectionColumnWidth: 50,
     },
