@@ -21,7 +21,7 @@ export default {
     colorText: 'rgba(0, 0, 0, 0.65)',
     colorTextSecondary: 'rgba(0, 0, 0, 0.45)',
     colorTextHeading,
-    colorBgBase: '#f5f5f5',
+    colorBgBase: '#ffffff',
     colorBorder: '#dedede',
     colorBorderSecondary: '#ebebeb',
     colorLink: colorPrimary,
@@ -55,7 +55,6 @@ export default {
     Button: {
       defaultBg: '#fafafa',
       defaultBorderColor: '#dedede',
-      // dangerColor: '#ffffff',
       paddingContentHorizontal: 12,
       paddingContentHorizontalLG: 16,
       paddingContentHorizontalSM: 8,
@@ -80,7 +79,7 @@ export default {
     },
     Layout: {
       bodyBg: '#ffffff',
-      siderBg: '#f5f5f5',
+      siderBg: '#ffffff',
     },
     Menu: {
       colorHighlight: colorTextHeading,
