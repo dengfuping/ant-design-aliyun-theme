@@ -5,6 +5,7 @@
     "lib": ["es2017", "dom"],
     "strict": true,
     "esModuleInterop": true,
-    "declaration": true
+    "declaration": true,
+    "skipLibCheck": true
   }
 }
