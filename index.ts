@@ -15,6 +15,7 @@ export default {
     colorBgLayout: '#f2f3f5',
     colorPrimary,
     colorInfo: colorPrimary,
+    colorSuccess,
     colorWarning: '#ffc440',
     colorError: '#d93026',
     borderRadius: 0,
