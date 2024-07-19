@@ -4,7 +4,9 @@ import type { ThemeConfig } from 'antd';
 
 const colorPrimary = '#0064C8';
 const colorPrimaryRGB = '0, 100, 200';
-const colorTextHeading = 'rgba(0, 0, 0, 0.85)';
+const colorSuccess = '#009431';
+const colorSuccessHover = '#007a29';
+const colorText = 'rgba(0, 0, 0, 0.85)';
 
 export default {
   token: {
@@ -13,14 +15,12 @@ export default {
     colorBgLayout: '#f2f3f5',
     colorPrimary,
     colorInfo: colorPrimary,
-    colorSuccess: '#1e8e3e',
     colorWarning: '#ffc440',
     colorError: '#d93026',
     borderRadius: 0,
     borderRadiusSM: 0,
-    colorText: 'rgba(0, 0, 0, 0.65)',
-    colorTextSecondary: 'rgba(0, 0, 0, 0.45)',
-    colorTextHeading,
+    colorText: 'rgba(0, 0, 0, 0.85)',
+    colorTextHeading: colorText,
     colorBgBase: '#ffffff',
     colorBorder: '#dedede',
     colorBorderSecondary: '#ebebeb',
@@ -48,7 +48,7 @@ export default {
     },
     Breadcrumb: {
       lastItemColor: 'rgba(0, 0, 0, 0.45)',
-      linkColor: colorTextHeading,
+      linkColor: colorText,
       linkHoverColor: colorPrimary,
       // '@breadcrumb-base-color': '@text-color',
     },
@@ -82,7 +82,7 @@ export default {
       siderBg: '#ffffff',
     },
     Menu: {
-      colorHighlight: colorTextHeading,
+      colorHighlight: colorText,
       horizontalLineHeight: 36,
       itemActiveBg: '#dedede',
       activeBarBorderWidth: 0,
@@ -128,7 +128,8 @@ export default {
       // '@slider-handle-shadow': '1px 1px 4px 0 rgba(0,0,0,.13)',
     },
     Switch: {
-      colorPrimary: '#1e8e3e',
+      colorPrimary: colorSuccess,
+      colorPrimaryHover: colorSuccessHover,
     },
     Table: {
       headerBg: '#fafafa',
@@ -147,7 +148,7 @@ export default {
     },
     Tooltip: {
       colorBgSpotlight: '#ffffff',
-      colorTextLightSolid: colorTextHeading,
+      colorTextLightSolid: colorText,
       sizePopupArrow: 8,
       // '@tooltip-max-width': '500px',
     },
