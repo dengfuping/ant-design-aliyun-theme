@@ -1,6 +1,6 @@
 {
   "name": "@oceanbase/aliyun-theme",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Ant Design Theme for Aliyun console",
   "main": "index.js",
   "module": "index.js",
