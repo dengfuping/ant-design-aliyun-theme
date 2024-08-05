@@ -6,6 +6,7 @@ const colorPrimary = '#0064C8';
 const colorPrimaryRGB = '0, 100, 200';
 const colorSuccess = '#009431';
 const colorSuccessHover = '#007a29';
+const colorSuccessBg = '#dff4e5';
 const colorText = 'rgba(0, 0, 0, 0.85)';
 
 export default {
@@ -37,8 +38,8 @@ export default {
     Alert: {
       colorInfoBorder: '#e5f3ff',
       colorInfoBg: '#e5f3ff',
-      colorSuccessBorder: '#dff4e5',
-      colorSuccessBg: '#dff4e5',
+      colorSuccessBorder: colorSuccessBg,
+      colorSuccessBg,
       colorWarningBorder: '#fff7db',
       colorWarningBg: '#fff7db',
       colorErrorBorder: '#fcebea',
