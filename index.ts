@@ -7,6 +7,7 @@ const colorPrimaryRGB = '0, 100, 200';
 const colorSuccess = '#009431';
 const colorSuccessHover = '#007a29';
 const colorSuccessBg = '#dff4e5';
+const colorSuccessBorder = colorSuccessBg;
 const colorText = 'rgba(0, 0, 0, 0.85)';
 
 export default {
@@ -17,6 +18,8 @@ export default {
     colorPrimary,
     colorInfo: colorPrimary,
     colorSuccess,
+    colorSuccessBg,
+    colorSuccessBorder,
     colorWarning: '#ffc440',
     colorError: '#d93026',
     borderRadius: 0,
@@ -38,15 +41,12 @@ export default {
     Alert: {
       colorInfoBorder: '#e5f3ff',
       colorInfoBg: '#e5f3ff',
-      colorSuccessBorder: colorSuccessBg,
+      colorSuccessBorder,
       colorSuccessBg,
       colorWarningBorder: '#fff7db',
       colorWarningBg: '#fff7db',
       colorErrorBorder: '#fcebea',
       colorErrorBg: '#fcebea',
-    },
-    Badge: {
-      colorError: '#d93026',
     },
     Breadcrumb: {
       lastItemColor: 'rgba(0, 0, 0, 0.45)',
